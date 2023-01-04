@@ -1105,6 +1105,14 @@ body::after {
 
 .slider-tariff__slider {
   position: relative;
+  opacity: 0;
+}
+
+.slider-tariff__slider._watcher-view {
+  -webkit-transition: all 2s ease 0s;
+  -o-transition: all 2s ease 0s;
+  transition: all 2s ease 0s;
+  opacity: 1;
 }
 
 .slider-tariff__wrapper {
@@ -1112,14 +1120,6 @@ body::after {
      -moz-column-gap: 1.875rem;
           column-gap: 1.875rem;
   position: relative;
-  opacity: 0;
-}
-
-.slider-tariff__wrapper._watcher-view {
-  -webkit-transition: all 2s ease 0s;
-  -o-transition: all 2s ease 0s;
-  transition: all 2s ease 0s;
-  opacity: 1;
 }
 
 .slider-tariff__slide {
