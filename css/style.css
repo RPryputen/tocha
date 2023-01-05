@@ -664,19 +664,13 @@ body::after {
   left: 0.75rem;
 }
 
-.fls-cursor._hover .fls-cursor__pointer::after {
-  -webkit-transform: scale(0.8);
-      -ms-transform: scale(0.8);
-          transform: scale(0.8);
-}
-
 .fls-cursor._active .fls-cursor__pointer::after {
   -webkit-transition: all 0.05s ease 0s;
   -o-transition: all 0.05s ease 0s;
   transition: all 0.05s ease 0s;
-  -webkit-transform: scale(0.3);
-      -ms-transform: scale(0.3);
-          transform: scale(0.3);
+  -webkit-transform: scale(0.85);
+      -ms-transform: scale(0.85);
+          transform: scale(0.85);
 }
 
 [class*=-ibg] {
